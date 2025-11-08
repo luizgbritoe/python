@@ -20,3 +20,6 @@ print(carro1.exibir_info())
 
 carro2 = Carro('Chevrolet', 'Onix', 4)
 print(carro2.exibir_info())
+
+carro3 = Carro(input('Digite a marca do carro: '), input('Digite o modelo do carro: '), input('Digite o número de portas do carro: '))
+print(carro3.exibir_info())
